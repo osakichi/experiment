@@ -14,13 +14,13 @@ java: $(PROGRAM).java
 
 cpp: $(PROGRAM).cpp
 	echo "== C++ =="
-	c++ -o $(PROGRAM) $< && ./$(PROGRAM) && rm -f $(PROGRAM)
+	c++ -std=c++11 -o $(PROGRAM) $< && ./$(PROGRAM) && rm -f $(PROGRAM)
 
 python: $(PROGRAM).py
 	echo "== Python =="
-	./$<
+	python ./$<
 
 lua: $(PROGRAM).lua
 	echo "== Lua =="
-	./$<
+	lua ./$<
 

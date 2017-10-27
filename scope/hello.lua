@@ -1,4 +1,4 @@
-#!/bin/env lua
+#!env lua
 
 function foo()
     return "different≠another"

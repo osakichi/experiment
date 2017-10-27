@@ -22,3 +22,12 @@ func main() {
 // The above processing is a common processing that
 // replaces default values with some processing results
 // depending on conditions.
+//
+// A good example is shown below.
+//		:
+//	var x = "Hello World!"
+//	if true {
+//		x = foo()
+//		:
+//	}
+//		:
